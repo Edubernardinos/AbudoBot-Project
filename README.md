@@ -19,7 +19,7 @@ PIL (Pillow): Assists in image manipulation and preprocessing before applying co
 Pygetwindow and pywinauto: Used to control and manipulate the game windows, as well as to monitor the application's state during the bot's execution.
 
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Metodologia e Estratégia
 O bot segue uma lógica de decisão baseada em regras fixas, mas também explora técnicas de aprendizado por reforço para melhorar a eficiência de certas decisões. A priorização de teleporte sobre outras ações é feita com base na detecção de áreas livres de inimigos, garantindo a sobrevivência do personagem. Todo o sistema é projetado para trabalhar com imagens pixeladas, exigindo uma abordagem robusta de processamento de imagens para lidar com as variações visuais no jogo.
