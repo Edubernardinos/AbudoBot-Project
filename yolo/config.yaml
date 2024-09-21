@@ -1,0 +1,9 @@
+path: C:/Users/Edu/Desktop/Zeny_Project/data
+
+train: images/train
+val: images/train
+
+names:
+  0: robo
+  1: pessoa
+  2: item
