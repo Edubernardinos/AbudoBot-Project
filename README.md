@@ -1,7 +1,7 @@
 # ONLINE AUTO-GAME BOT WITH A.I AND COMPUTER VISION 
 # BOT ONLINE UTILIZANDO I.A E VISÃO COMPUTACIONAL
 
-BOT FOR GAME : RAGNAROK (2002) - 
+BOT FOR GAME : RAGNAROK (2002) 
 
 Methodology and Strategy:
 The bot follows a decision-making logic based on fixed rules but also explores reinforcement learning techniques to improve the efficiency of certain decisions. Prioritization of teleportation over other actions is done by detecting enemy-free areas, ensuring the character's survival. The entire system is designed to work with pixelated images, requiring a robust image processing approach to handle visual variations in the game.
