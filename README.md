@@ -3,6 +3,8 @@
 
 BOT FOR GAME : RAGNAROK (2002) 
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Methodology and Strategy:
 The bot follows a decision-making logic based on fixed rules but also explores reinforcement learning techniques to improve the efficiency of certain decisions. Prioritization of teleportation over other actions is done by detecting enemy-free areas, ensuring the character's survival. The entire system is designed to work with pixelated images, requiring a robust image processing approach to handle visual variations in the game.
 
@@ -18,14 +20,12 @@ PIL (Pillow): Assists in image manipulation and preprocessing before applying co
 
 Pygetwindow and pywinauto: Used to control and manipulate the game windows, as well as to monitor the application's state during the bot's execution.
 
-
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Metodologia e Estratégia
 O bot segue uma lógica de decisão baseada em regras fixas, mas também explora técnicas de aprendizado por reforço para melhorar a eficiência de certas decisões. A priorização de teleporte sobre outras ações é feita com base na detecção de áreas livres de inimigos, garantindo a sobrevivência do personagem. Todo o sistema é projetado para trabalhar com imagens pixeladas, exigindo uma abordagem robusta de processamento de imagens para lidar com as variações visuais no jogo.
 
 Bibliotecas e Ferramentas:
-
 
 OpenCV: Utilizada para manipulação e análise das imagens do jogo, permitindo a detecção de inimigos e itens no cenário através de técnicas de detecção de bordas, segmentação e matching de templates.
 
