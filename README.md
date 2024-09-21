@@ -1,5 +1,23 @@
 # AbudoBot-Project
-# ONLINE AUTO-GAME BOT WITH A.I AND COMPUTER VISION
+# ONLINE AUTO-GAME BOT WITH A.I AND COMPUTER VISION | BOT ONLINE UTILIZANDO I.A E VISÃO COMPUTACIONAL
+
+
+Methodology and Strategy:
+The bot follows a decision-making logic based on fixed rules but also explores reinforcement learning techniques to improve the efficiency of certain decisions. Prioritization of teleportation over other actions is done by detecting enemy-free areas, ensuring the character's survival. The entire system is designed to work with pixelated images, requiring a robust image processing approach to handle visual variations in the game.
+
+Libraries and Tools:
+
+OpenCV: Used for image manipulation and analysis in the game, enabling the detection of enemies and items through edge detection, segmentation, and template matching techniques.
+
+Pytesseract: Implemented to extract textual information from the screen, such as HP and Mana percentages, which are located in the upper right corner of the game's interface.
+
+PyAutoGUI: This library is used to interact with the game by simulating clicks, keyboard shortcuts, and other input commands.
+
+PIL (Pillow): Assists in image manipulation and preprocessing before applying computer vision algorithms.
+
+Pygetwindow and pywinauto: Used to control and manipulate the game windows, as well as to monitor the application's state during the bot's execution.
+
+
 
 
 Metodologia e Estratégia
